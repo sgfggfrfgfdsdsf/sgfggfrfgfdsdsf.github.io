@@ -42,7 +42,7 @@ $(document).ready(function() {
         $.ajax({
           type:"POST",      
           dataType:'json',
-          url:'https://verygoodtester.000webhostapp.com/tiktok-service.php',
+          url:'https://verygoodtester.000webhostapp.com/index.php',
           data:{url:vid_url},
           // success function 
           success:function(data){
